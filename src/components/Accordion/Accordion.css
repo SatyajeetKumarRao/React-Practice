@@ -1,0 +1,23 @@
+.accordion-container {
+  border: 1px solid gainsboro;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: ghostwhite;
+  width: 500px;
+
+  .accordion-title {
+    font-weight: 600;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .accordion-value {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}

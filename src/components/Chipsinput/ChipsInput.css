@@ -1,0 +1,44 @@
+.chips-component {
+    .chips-label-input {
+        width: 200px;
+        padding: 5px;
+    }
+
+    .add-button {
+        padding: 5px 10px;
+        margin-left: 5px;
+    }
+
+    .chips-container {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        width: 400px;
+        flex-wrap: wrap;
+
+        .chips {
+            padding: 5px 10px;
+            background-color: rgb(231, 231, 231);
+            border-radius: 50px;
+            display: flex;
+            gap: 5px;
+            align-items: center;
+
+            .label {
+                width: max-content;
+                max-width: 200px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+
+            .delete-button {
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+                padding: 0px;
+                margin: 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.tab-container {
+  .tab-header {
+    display: flex;
+    gap: 2px;
+    border-bottom: 1px solid lightgray;
+    .tab {
+      display: inline-block;
+      min-width: 100px;
+      min-height: 30px;
+      border: none;
+      background-color: white;
+      padding: 10px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .active {
+      border-bottom: 2px solid cornflowerblue;
+      color: cornflowerblue;
+    }
+  }
+
+  .tab-body {
+    margin-top: 10px;
+
+    .profile-tab {
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        .input-label {
+          font-size: 13px;
+          margin-bottom: 2px;
+        }
+        .input-box[type="text"],
+        .input-box[type="number"],
+        .input-box[type="email"] {
+          width: 250px;
+
+          &::placeholder {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    .interest-tab {
+      .input-container {
+        display: flex;
+        margin-bottom: 10px;
+        gap: 5px;
+        .input-label {
+          font-size: 13px;
+          padding-top: 2px;
+        }
+      }
+    }
+
+    .setting-tab {
+      .input-container {
+        display: flex;
+        margin-bottom: 10px;
+        .input-label {
+          font-size: 13px;
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+}

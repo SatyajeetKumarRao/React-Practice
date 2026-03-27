@@ -1,0 +1,6 @@
+.status-bar {
+  display: flex;
+  max-width: 500px;
+  align-items: center;
+  justify-content: space-between;
+}

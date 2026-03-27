@@ -1,0 +1,41 @@
+.pagination {
+    .pagination-button-container {
+        display: flex;
+        gap: 4px;
+        padding: 10px 0px;
+
+        .pagination-button {
+            cursor: pointer;
+            border: none;
+            padding: 10px;
+        }
+
+        .active {
+            font-weight: 500;
+            background-color: aquamarine;
+        }
+    }
+
+    .pagination-container {
+        border: 1px solid lightgray;
+        width: 600px;
+        padding: 10px;
+        box-sizing: border-box;
+
+        .card {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+
+            .card-image {
+                width: 150px;
+            }
+
+            .card-details {
+                .card-title {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

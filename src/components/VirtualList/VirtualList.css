@@ -1,0 +1,8 @@
+.virtual-list {
+    .virtual-list-container {
+        overflow-y: scroll;
+        width: 500px;
+        border: 2px solid whitesmoke;
+        padding: 10px;
+    }
+}

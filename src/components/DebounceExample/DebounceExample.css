@@ -1,0 +1,10 @@
+.debounce-container {
+  display: grid;
+  place-content: center;
+  text-align: center;
+
+  .search-input {
+    width: 300px;
+    padding: 5px;
+  }
+}

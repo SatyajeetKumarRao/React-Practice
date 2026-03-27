@@ -1,0 +1,69 @@
+.main-container {
+  display: grid;
+  place-content: center;
+
+  .game-container {
+    width: 600px;
+    border: 2px solid lightblue;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .header {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .game-area {
+      margin-top: 10px;
+      width: calc(100% - 50px);
+      height: 250px;
+      box-sizing: border-box;
+      position: relative;
+      border: 1px solid black;
+
+      .box {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        background-color: red;
+      }
+    }
+
+    .record {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+
+      .table-container {
+        width: calc(100% - 50px);
+        max-height: 300px;
+        overflow-y: auto;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .record-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+
+        .inside {
+          background-color: lightseagreen;
+        }
+      }
+
+      .record-table thead th {
+        position: sticky;
+        top: 0;
+        background: white;
+        padding: 10px;
+      }
+    }
+  }
+}

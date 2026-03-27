@@ -1,0 +1,45 @@
+.infinite-scroll-event-container,
+.infinite-scroll-intersection-container {
+  /* border: 2px solid rgb(224, 224, 224); */
+  padding: 10px;
+  border-radius: 10px;
+
+  h3 {
+    text-align: center;
+  }
+
+  .infinite-scroll-container {
+    overflow-y: scroll;
+    width: 500px;
+    height: 400px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    .item-card {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-align: start;
+      width: 100%;
+      border: 2px solid rgba(211, 211, 211, 0.19);
+      padding: 5px;
+      border-radius: 10px;
+      box-sizing: border-box;
+
+      .item-image {
+        width: 100px;
+      }
+
+      .card-title {
+        font-weight: 600;
+      }
+    }
+
+    .status {
+      text-align: center;
+    }
+
+  }
+}
