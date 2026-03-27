@@ -34,6 +34,10 @@ const Sidebar = () => {
         label: 'Chips Input'
       },
       {
+        path: '/nested-checkbox',
+        label: 'Nested Checkbox'
+      },
+      {
         path: '/debounce',
         label: 'Debounce Example'
       },
