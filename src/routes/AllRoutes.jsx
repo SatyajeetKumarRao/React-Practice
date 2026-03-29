@@ -38,6 +38,7 @@ const TodoPage = lazy(() => import('../pages/TodoPage'))
 const VirtualListPage = lazy(() => import("../pages/VirtualListPage"));
 const ChipsInputPage = lazy(() => import("../pages/ChipsInputPage"));
 const NestedCheckboxPage = lazy(() => import("../pages/NestedCheckboxPage"));
+const FileExplorerPage = lazy(() => import("../pages/FileExplorerPage"));
 
 
 const AllRoutes = () => {
@@ -57,6 +58,7 @@ const AllRoutes = () => {
         <Route path="chips-input" element={<ChipsInputPage />} />
         <Route path="nested-checkbox" element={<NestedCheckboxPage />} />
         <Route path="todo" element={<TodoPage />} />
+        <Route path="file-explorer" element={<FileExplorerPage />} />
         <Route path="debounce" element={<DebounceExamplePage />} />
         <Route path="throttle" element={<ThrottleExamplePage />} />
         <Route
