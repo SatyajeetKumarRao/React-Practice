@@ -42,10 +42,6 @@ const Sidebar = () => {
         label: 'File Explorer'
       },
       {
-        path: '/nested-checkbox',
-        label: 'Nested Checkbox'
-      },
-      {
         path: '/debounce',
         label: 'Debounce Example'
       },
