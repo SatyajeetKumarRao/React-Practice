@@ -23,13 +23,9 @@ const ReactReduxExamplePage = lazy(
 const ReactReduxSagaExamplePage = lazy(
   () => import("../pages/ReactReduxSagaExamplePage"),
 );
-
 const ClickGamePage = lazy(() => import("../pages/ClickGamePage"));
-
 const TabsPage = lazy(() => import("../pages/TabsPage"));
-
 const InfiniteScrollPage = lazy(() => import("../pages/InfiniteScrollPage"));
-
 const DebounceExamplePage = lazy(() => import("../pages/DebounceExamplePage"));
 const ThrottleExamplePage = lazy(() => import("../pages/ThrottleExamplePage"));
 const AccordionPage = lazy(() => import('../pages/AccordionPage'))
@@ -39,6 +35,8 @@ const VirtualListPage = lazy(() => import("../pages/VirtualListPage"));
 const ChipsInputPage = lazy(() => import("../pages/ChipsInputPage"));
 const NestedCheckboxPage = lazy(() => import("../pages/NestedCheckboxPage"));
 const FileExplorerPage = lazy(() => import("../pages/FileExplorerPage"));
+const ProgressBarPage = lazy(() => import("../pages/ProgressBarPage"));
+
 
 
 const AllRoutes = () => {
@@ -57,6 +55,7 @@ const AllRoutes = () => {
         <Route path="virtual-list" element={<VirtualListPage />} />
         <Route path="chips-input" element={<ChipsInputPage />} />
         <Route path="nested-checkbox" element={<NestedCheckboxPage />} />
+        <Route path="progressbar" element={<ProgressBarPage />} />
         <Route path="todo" element={<TodoPage />} />
         <Route path="file-explorer" element={<FileExplorerPage />} />
         <Route path="debounce" element={<DebounceExamplePage />} />

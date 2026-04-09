@@ -42,6 +42,10 @@ const Sidebar = () => {
         label: 'File Explorer'
       },
       {
+        path: '/progressbar',
+        label: 'Progressbar'
+      },
+      {
         path: '/debounce',
         label: 'Debounce Example'
       },
