@@ -1,0 +1,15 @@
+.tic-tac-toe{
+    .board-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: calc(80*3px);
+        .square{
+            width: 80px;
+            height: 80px;
+            background-color: white;
+            border: 1px solid lightgray;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+}

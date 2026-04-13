@@ -46,6 +46,10 @@ const Sidebar = () => {
         label: 'Progressbar'
       },
       {
+        path: '/tictactoe',
+        label: 'TicTacToe'
+      },
+      {
         path: '/debounce',
         label: 'Debounce Example'
       },
